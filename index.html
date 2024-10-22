@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive E-commerce Website</title>
+    <link rel="stylesheet" href="E-com-web.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>ShopMaster</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <a href="#">Cart (0)</a>
+        </div>
+    </header>
+
+    <!-- Main Banner with Product Carousel -->
+    <section class="banner">
+        <div class="banner-content">
+            <h2>Give Your Wardrobe a New Style!</h2>
+            <p>Best picks from your favorite brands.</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="carousel">
+            <img src=".vscode/Give Your Wardrobe a New Style!.jpg" alt="Banner Image">
+        </div>
+    </section>
+
+    <!-- Product Filter and Sort Section -->
+    <!-- Filter Section -->
+<section class="filter">
+    <h2>Filter Products</h2>
+    <button id="filter-button">Filter</button>
+    <div class="filter-options">
+        <label><input type="checkbox" name="category" value="electronics"> Electronics</label>
+        <label><input type="checkbox" name="category" value="fashion"> Fashion</label>
+        <label><input type="checkbox" name="category" value="home"> Home Decor</label>
+        <label><input type="checkbox" name="category" value="sports"> Sports</label>
+        <button id="apply-filters">Apply Filters</button>
+    </div>
+</section>
+
+<!-- Sort By Section -->
+<section class="sort">
+    <h2>Sort Products</h2>
+    <button id="sort-button">Sort By</button>
+    <div class="sort-options">
+        <label><input type="radio" name="sort" value="price-asc"> Price: Low to High</label>
+        <label><input type="radio" name="sort" value="price-desc"> Price: High to Low</label>
+        <label><input type="radio" name="sort" value="newest"> Newest Arrivals</label>
+        <label><input type="radio" name="sort" value="best-sellers"> Best Sellers</label>
+    </div>
+</section>
+
+
+    <!-- Responsive Product Grid -->
+    <section class="product-grid">
+        <div class="product-card">
+            <img src=".vscode/smartphone.jpg" alt="Smartphone">
+            <h4>Smartphone</h4>
+            <p>$299.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src=".vscode/watch2.jpg" alt="Watch">
+            <h4>Watch</h4>
+            <p>$150.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <!-- Add more products as needed -->
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featured">
+        <h3>Featured Products</h3>
+        <div class="featured-grid">
+            <div class="featured-item">
+                <img src=".vscode/bag.jpg" alt="Handbag">
+                <p>Trendy Handbag</p>
+                <span>$75.00</span>
+            </div>
+            <div class="featured-item">
+                <img src=".vscode/Headphones.jpg" alt="Headphones">
+                <p>Wireless Headphones</p>
+                <span>$120.00</span>
+            </div>
+        </div>
+    </section>
+    <section class="shoe-collection">
+        <div class="header-banner">
+            <h2>Foot Locker</h2>
+            <h3>HOT NEW DROPS</h3>
+        </div>
+        <div class="shoe-grid">
+            <div class="shoe-item">
+                <img src=".vscode/Asics.jpg" alt="Asics Shoe">
+                <p>Asics</p>
+            </div>
+            <div class="shoe-item">
+                <img src=".vscode/sneakers.jpg" alt="Adidas Shoe">
+                <p>Adidas</p>
+            </div>
+            <div class="shoe-item">
+                <img src=".vscode/Bacca Bucci Stellar Mid Top Flat Sole Fashion-Forward Women's Sneakers For Any Occasion -Peach, Size UK40.jpg" alt="Skechers Shoe">
+                <p>Bacca Bucci Women's Sneakers 
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Featured Categories Section -->
+<section class="featured-categories">
+    <h2>Featured Categories</h2>
+    <div class="category-grid">
+        <div class="category-card">
+            <img src=".vscode/Samsung foldable phone.jpg" alt="Electronics">
+            <h4>Electronics</h4>
+        </div>
+        <div class="category-card">
+            <img src=".vscode/fashion.jpg" alt="Fashion">
+            <h4>Fashion</h4>
+        </div>
+        <div class="category-card">
+            <img src=".vscode/home decor.jpg" alt="Home Decor">
+            <h4>Home Decor</h4>
+        </div>
+        <div class="category-card">
+            <img src=".vscode/sports.jpg" alt="Sports">
+            <h4>Sports</h4>
+        </div>
+    </div>
+</section>
+
+<!-- Product Section -->
+<section class="products">
+    <h2>Popular Products</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src=".vscode/smartphone.jpg" alt="Smartphone">
+            <h4>Smartphone</h4>
+            <p>$299.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src=".vscode/smartphone 2.jpg" alt="Watch">
+            <h4>Watch</h4>
+            <p>$150.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src=".vscode/bag2.jpg" alt="Handbag">
+            <h4>Handbag</h4>
+            <p>$75.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src=".vscode/headphone2.jpg" alt="Headphones">
+            <h4>Headphones</h4>
+            <p>$120.00</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-card">
+        <p>"I love shopping here! The products are amazing and the prices are unbeatable."</p>
+        <p>- Alex J.</p>
+    </div>
+    <div class="testimonial-card">
+        <p>"Fast shipping and great customer service. Highly recommended!"</p>
+        <p>- Sarah K.</p>
+    </div>
+</section>
+
+<!-- Blog Section -->
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ShopMaster. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
